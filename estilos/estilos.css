@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+/* font-family: 'Castoro Titling', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: 'Castoro Titling', cursive;
+    font-size: 50px;
+    text-shadow: 0 0 15px black;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: palevioletred;
+}
+
+.nav-link{
+    color: white !important;
+    padding-left: 20px !important;
+    text-align: right;
+}
+.nav-link:hover{
+    color: black !important;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+main{
+    position: relative;
+    text-align: center;
+}
+
+.video-main{
+    filter: brightness(0.2)
+}
+
+.introduccion{
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Castoro Titling', cursive;
+}
+
+p{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+.boton1{
+    background-color: palevioletred;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Castoro Titling', cursive;
+    border-radius: 10px;
+}
+
+.boton1:hover{
+    background-color: white;
+    color: black;
+    text-shadow: 0 0 15px palevioletred; 
+    transition: all 1.5s;
+}
+
+h2{
+    background-color: black;
+    color: palevioletred;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family:'Castoro Titling', cursive;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 400px;
+    min-height: 300px;
+    background-color: white;
+    padding: 10px;
+    border: 7px solid #000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card__img1{
+    background-image: url(../img/sinpelo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.card__img2{
+    background-image: url(../img/corto.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.card__img3{
+    background-image: url(../img/largo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.card__img4{
+    background-image: url(../img/rizado.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 180px;
+}
+
+.card__titulo{
+    font-family: 'Castoro Titling', cursive;
+    text-shadow: 0 2px palevioletred;
+}
+
+.card__desc{
+    padding: 15px;
+    text-align: justify;
+}
+
+.sec{
+    background-color: black;
+    height: 100vh;
+}
+
+
+footer{
+    /* position: fixed;
+    bottom: 0; */
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: -0.4rem;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 30px;
+}
+
+.fix-b{
+    position: fixed;
+    bottom: 0;
+}
+
+footer a{
+    color: palevioletred;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
+
+footer a:hover{
+    color: grey;
+}
+
+@media only screen and (max-width:900px){
+    h1{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 0.6rem;
+        padding: 0;
+    }
+    section{
+        display: block ; 
+    }
+    
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+    h1{
+        font-size: 50px;
+    }
+
+    section{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+}
