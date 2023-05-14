@@ -152,7 +152,7 @@ section{
 
 .sec{
     background-color: black;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .galeria{
@@ -250,6 +250,10 @@ footer a:hover{
         /* grid-template-columns: 1fr 1fr; */
         grid-template-rows: repeat(4, 200px);
     }
+    footer{
+        margin-top: -0.4rem;
+    }
+
 }
 
 @media only screen and (max-width:480px){
@@ -271,7 +275,13 @@ footer a:hover{
         /* grid-template-columns: 1fr 1fr; */
         grid-template-rows: repeat(4, 200px);
     }
-    
+    img{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        margin-top: -0.4rem;
+    }
 }
 
 
@@ -294,6 +304,13 @@ footer a:hover{
         justify-content: space-between;
         padding: 20px;
         flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        margin-top: -0.4rem;
     }
 }
 
@@ -341,6 +358,9 @@ footer a:hover{
         grid-column: 2/4;
         grid-row: 4/5;
     }
+    footer{
+        margin-top: -0.4rem;
+    }
 }
 
 @media only screen and (min-width: 1025px){
@@ -350,6 +370,9 @@ footer a:hover{
     .fix-b{
         position: relative;
         bottom: 0;
+    }
+    footer{
+        margin-top: -0.4rem;
     }
 }
 /* @media only screen and (min-width: 1025px) and (max-width: 1640px){
