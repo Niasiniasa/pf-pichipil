@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap')
+/* font-family: 'Castoro Titling', cursive */
+
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+
+.navbar-brand 
+    font-family: 'Castoro Titling', cursive
+    font-size: 50px
+    text-shadow: 0 0 15px black
+    padding: 20px
+    animation-duration: 2s
+    animation-name: titulo
+    animation-delay: 0s
+    animation-direction: alternate
+    animation-iteration-count: infinite
+
+
+@keyframes titulo 
+0%
+    opacity: 0
+
+100%
+    opacity: 1
+
+
+
+.navbar 
+    background-color: palevioletred
+    background-image: linear-gradient(palevioletred 30%, black)
+
+
+.nav-link 
+    color: white !important
+    padding-left: 20px !important
+    text-align: right
+
+
+.nav-link:hover 
+    color: black !important
+    background-color: white
+    border-radius: 10px
+
+
+.navbar-toggler 
+    border: none
+
+
+main 
+    position: relative
+    text-align: center
+
+
+.video-main 
+    filter: brightness(0.2)
+
+
+.introduccion 
+    position: absolute
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: white
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+
+h1 
+    font-size: 50px
+    font-family: 'Castoro Titling', cursive
+
+
+p 
+    font-size: 20px
+    padding-bottom: 20px
+    margin-bottom: auto
+
+
+
+aside 
+    background-color: black
+    h4 
+        color: palevioletred
+        padding: 20px
+    
+
+
+.texto
+    color: white
+    padding: 20px
+    font-size: 15px
+
+.boton1 
+    font-size: 30px
+    background-color: palevioletred
+    padding: 10px 20px
+    color: white
+    text-decoration: none
+    font-family: 'Castoro Titling', cursive
+    border-radius: 10px
+
+
+.boton1:hover 
+    background-color: white
+    color: black
+    text-shadow: 0 0 15px palevioletred
+    transition: all 1.5s
+
+
+h2 
+    background-color: black
+    color: palevioletred
+    text-align: center
+    margin-bottom: auto
+    padding: 20px
+    font-size: 30px
+    font-family: 'Castoro Titling', cursive
+
+
+section 
+    background-color: black
+    display: flex
+    justify-content: space-between
+    padding: 20px
+    flex-wrap: wrap
+
+
+
+.card 
+    width: 400px
+    min-height: 300px
+    background-color: white
+    padding: 10px
+    border: 7px solid palevioletred
+    margin: auto
+    margin-bottom: 20px
+
+
+.card__img1 
+    background-image: url(../img/sinpelo.jpg)
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 180px
+
+
+.card__img2 
+    background-image: url(../img/corto.jpg)
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 180px
+
+
+.card__img3 
+    background-image: url(../img/largo.jpg)
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 180px
+
+
+.card__img4 
+    background-image: url(../img/rizado.jpg)
+    background-size: cover
+    background-position: center
+    width: 100%
+    height: 180px
+
+
+.card__titulo 
+    font-size: 40px
+    font-family: 'Castoro Titling', cursive
+    text-shadow: 0 2px palevioletred
+
+
+.card__desc 
+    padding: 15px
+    text-align: justify
+
+
+.sec 
+    background-color: black
+    /* height: 100vh */
+
+
+.galeria 
+    width: 100%
+    height: auto
+    background-color: black
+    padding: 20px
+    display: grid
+    grid-column: 1fr
+    grid-template-rows: repeat(8, 200px)
+    margin-top: -.5rem
+
+
+.galeria2
+    background-color: black
+    padding: 20px
+    display: grid
+
+
+.itemm
+    height: 400px
+    width: 100%
+    justify-items: center
+    border: 2px solid white
+    background-size: cover
+    background-position: center
+    filter: grayscale(0%)
+    transition: all 0.9s
+    border-radius: 50px
+
+
+.itemm:hover
+    filter: grayscale(100%)
+    transform: scale(1.1)
+    transition: 0.2s
+
+
+.item 
+    height: 200px
+    width: 100%
+    border: 2px solid white
+    background-size: cover
+    background-position: center
+    filter: grayscale(0%)
+    transition: all 0.9s
+    border-radius: 50px
+
+
+.item:hover 
+    filter: grayscale(100%)
+    transform: scale(1.1)
+    transition: 0.2s
+
+
+
+.item1 
+    background-image: url(../img/cat-g06c9311ce_1280.jpg)
+
+
+.item2 
+    background-image: url(../img/cat-g232d76a77_1280.jpg)
+
+
+.item3 
+    background-image: url(../img/cat-g2354e8c8e_1280.jpg)
+
+
+.item4 
+    background-image: url(../img/cat-g82aa3da2e_1280.jpg)
+
+
+.item5 
+    background-image: url(../img/kitten-ge3d72a6ea_1280.jpg)
+
+
+.item6 
+    background-image: url(../img/kitten-ge53341434_1280.jpg)
+
+
+.item7 
+    background-image: url(../img/kitty-ge6d05cf8c_1280.jpg)
+
+
+.item8 
+    background-image: url(../img/maine-coon-g47af9b8a1_1280.jpg)
+
+
+.item55 
+    background-image: url(../img/kitten-ge3d72a6ea_1280.jpg)
+
+
+.item66 
+    background-image: url(../img/kitten-ge53341434_1280.jpg)
+
+
+.item77 
+    background-image: url(../img/kitty-ge6d05cf8c_1280.jpg)
+
+
+.item88 
+    background-image: url(../img/maine-coon-g47af9b8a1_1280.jpg)
+
+
+footer 
+    /* position: fixed */
+    bottom: 0
+    background-color: black
+    background-image: linear-gradient(black 40%, palevioletred)
+    color: white
+    width: 100%
+    height: auto
+    margin-top: -0.4rem
+    padding: 20px
+    text-align: center
+    font-family: 'Castoro Titling', cursive
+    font-size: 30px
+    a 
+        color: palevioletred
+        letter-spacing: 15px
+        font-size: 40px
+    
+
+
+.fix-b 
+    position: fixed
+    bottom: 0
+
+
+// footer a 
+//     color: palevioletred
+//     letter-spacing: 15px
+//     font-size: 40px
+// 
+
+footer a:hover 
+    color: grey
+
+
+@media only screen and (min-width:480px) 
+    .galeria 
+        /* grid-template-columns: 1fr 1fr */
+        grid-template-rows: repeat(4, 200px)
+    
+
+    footer 
+        margin-top: -0.6rem
+    
+
+
+
+@media only screen and (max-width:480px) 
+    .fix-b 
+        position: relative
+        bottom: 0
+    
+
+    h1 
+        font-size: 1.3rem
+    
+
+    p 
+        font-size: 0.6rem
+        padding: 0
+    
+
+    .boton1
+        font-size: 10px
+        padding: 7px
+    
+
+    .galeria 
+        /* grid-template-columns: 1fr 1fr */
+        grid-template-rows: repeat(4, 200px)
+    
+
+    img 
+        width: 100%
+        height: auto
+    
+
+    footer 
+        margin-top: -0.6rem
+    
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) 
+    h1 
+        font-size: 25px
+    
+
+    p 
+        font-size: 10px
+    
+    
+    .boton1
+        font-size: 15px
+    
+
+    .fix-b 
+        position: relative
+        bottom: 0
+    
+
+    section 
+        display: flex
+        justify-content: space-between
+        padding: 20px
+        flex-wrap: wrap
+    
+
+    h4
+        font-size: 35px
+        padding: 20px
+    
+
+    .texto
+        font-size: 20px
+        padding: 20px
+    
+
+    img 
+        width: 100%
+        height: auto
+    
+
+    footer 
+        margin-top: -0.6rem
+    
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) 
+    h1 
+        font-size: 30px
+    
+
+    p 
+        font-size: 14px
+    
+
+    .galeria 
+        grid-template-columns: repeat(3, 1fr)
+        grid-template-rows: repeat(4, 1fr)
+    
+
+    .item1 
+        grid-column: 1/3
+        grid-row: 1/2
+    
+
+    .item2 
+        grid-column: 3/4
+        grid-row: 1/2
+    
+
+    .item3 
+        grid-column: 1/2
+        grid-row: 2/3
+    
+
+    .item4 
+        grid-column: 2/4
+        grid-row: 2/3
+    
+
+    .item5 
+        grid-column: 1/3
+        grid-row: 3/4
+    
+
+    .item6 
+        grid-column: 3/4
+        grid-row: 3/4
+    
+
+    .item7 
+        grid-column: 1/2
+        grid-row: 4/5
+    
+
+    .item8 
+        grid-column: 2/4
+        grid-row: 4/5
+    
+    .item55 
+        grid-column: 1/3
+        grid-row: 3/4
+    
+
+    .item66 
+        grid-column: 3/4
+        grid-row: 3/4
+    
+
+    .item77 
+        grid-column: 1/2
+        grid-row: 4/5
+    
+
+    .item88 
+        grid-column: 2/4
+        grid-row: 4/5
+    
+
+    footer 
+        margin-top: -0.6rem
+    
+
+
+@media only screen and (min-width: 1025px) 
+    .galeria 
+        grid-template-columns: repeat(4, 1fr)
+    
+
+    .fix-b 
+        position: relative
+        bottom: 0
+    
+
+    h4
+        font-size: 50px
+        padding: 20px
+    
+
+    .texto
+        font-size: 30px
+        padding: 20px
+        padding-bottom: 50px
+    
+    .item55 
+        grid-column: 1/3
+        grid-row: 3/4
+    
+
+    .item66 
+        grid-column: 3/4
+        grid-row: 3/4
+    
+
+    .item77 
+        grid-column: 1/2
+        grid-row: 4/5
+    
+
+    .item88 
+        grid-column: 2/4
+        grid-row: 4/5
+    
+
+    footer 
+        margin-top: -0.6rem
+    
+
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1640px)
+
+    .fix-b
+        position: relative
+        bottom: 0
+    
+    
+ */
