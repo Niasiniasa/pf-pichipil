@@ -30,6 +30,7 @@
 }
 
 .navbar {
+    font-size: 20px;
     background-color: palevioletred;
     background-image: linear-gradient(palevioletred 30%, black);
 }
@@ -56,6 +57,7 @@ main {
 }
 
 .video-main {
+    display: block;
     filter: brightness(0.2);
 }
 
@@ -87,6 +89,7 @@ aside {
 }
 
 aside h4 {
+    margin-top: -0.9;
     color: palevioletred;
     padding: 20px;
 }
@@ -531,17 +534,13 @@ footer a:hover {
         grid-row: 4/5;
     }
 
+    h4 {
+        margin-top: -0.4rem;
+    }
+
     footer {
         margin-top: -0.6rem;
     }
 }
 
-/* @media only screen and (min-width: 1025px) and (max-width: 1640px){
-
-    .fix-b{
-        position: relative;
-        bottom: 0;
-    }
-
-} */
 /*# sourceMappingURL=estilos.css.map */
