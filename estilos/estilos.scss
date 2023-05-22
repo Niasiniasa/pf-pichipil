@@ -62,11 +62,11 @@ main {
 }
 
 .introduccion {
+    color: white !important;
     position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -86,6 +86,7 @@ p {
 }
 
 aside {
+    margin-top: -0.5rem;
     background-color: black;
 
     h4 {
